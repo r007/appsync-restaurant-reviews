@@ -1,0 +1,6 @@
+{
+    "AppSyncApiName": "restaurantReviews",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "S3DeploymentBucket": "restaurant-reviews-dev-20190915094138-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/65d060bb661d3e640fc705c68a524b7c60471a0b"
+}

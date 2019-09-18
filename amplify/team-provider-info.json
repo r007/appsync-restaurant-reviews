@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "restaurant-reviews-dev-20190915094138-authRole",
+            "UnauthRoleArn": "arn:aws:iam::346389888921:role/restaurant-reviews-dev-20190915094138-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::346389888921:role/restaurant-reviews-dev-20190915094138-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "restaurant-reviews-dev-20190915094138-deployment",
+            "UnauthRoleName": "restaurant-reviews-dev-20190915094138-unauthRole",
+            "StackName": "restaurant-reviews-dev-20190915094138",
+            "StackId": "arn:aws:cloudformation:eu-central-1:346389888921:stack/restaurant-reviews-dev-20190915094138/7d2f4570-d77b-11e9-806c-06a005f7522e"
+        }
+    }
+}

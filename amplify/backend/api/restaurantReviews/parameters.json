@@ -1,0 +1,4 @@
+{
+    "AppSyncApiName": "restaurantReviews",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST"
+}
