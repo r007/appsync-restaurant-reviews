@@ -51,15 +51,7 @@ const Restaurants = () => {
 
         <div>
           <GatsbyLink to={`/restaurant/${r.id}`} state={{ restaurant: r }}>
-            <Heading
-              level={3}
-              margin="none"
-              style={{
-                whiteSpace: 'nowrap',
-                textOverflow: 'ellipsis',
-                overflow: 'hidden'
-              }}
-            >
+            <Heading level={3} margin="none">
               {r.name}
             </Heading>
           </GatsbyLink>
