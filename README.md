@@ -6,3 +6,5 @@ Just a demo application for demonstration on how to use AWS AppSync. The applica
 - Add new restaurant
 - Show toastr notification if restaurant was added
 - Add review and rating to restaurant
+
+**Demo**: https://master.d25h9bbwhn8626.amplifyapp.com/
