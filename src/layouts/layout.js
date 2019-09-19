@@ -13,7 +13,7 @@ const Link = styled(GatsbyLink)`
   text-decoration: none;
 `;
 
-const Layout = ({ children, setRestaurants }) => {
+const Layout = ({ children }) => {
   const { createRestaurantIsOpen, toggleNavState } = useContext(NavContext);
 
   const onClose = () => {
@@ -42,7 +42,7 @@ const Layout = ({ children, setRestaurants }) => {
       <Box pad="medium" flex direction="row">
         {children}
         <Collapsible direction="horizontal" open={createRestaurantIsOpen}>
-          <CreateRestaurant setRestaurants={setRestaurants} />
+          <CreateRestaurant />
         </Collapsible>
       </Box>
       <Toastr />
